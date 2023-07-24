@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEA HOUSE</title>
+  <!-- font setup -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- font awesome setup -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- tailwind setup with daisy  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .font-family {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-family">
+  <!-- header start -->
+  <header class="container mx-auto flex flex-col md:flex-col lg:flex-row items-center justify-between p-6">
+    <div class="">
+      <h3 class="text-4xl lg:text-7xl font-extrabold">
+        It's good <br>
+        tea time at The <br>
+        Tea House
+      </h3>
+      <p class="text-lg mt-7 mb-7">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste
+        Buds.
+      </p>
+      <button class="btn btn-primary">Explore More</button>
+    </div>
+    <div class="pt-8">
+      <img class="w-full" src="images/banner.png" alt="">
+
+      <div class="-mt-24 ml-16 flex gap-2 items-center drop-shadow-2xl w-64 bg-white p-6 ">
+        <div>
+          <i class="fa-solid fa-star text-3xl" style="color: #cac41c;"></i>
+        </div>
+        <div>
+          <h3 class="text-3xl font-extrabold">5.00</h3>
+          <p class="font-semibold">Trust Pilot Ratings</p>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>
